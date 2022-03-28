@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #717171;
+}
+
+h3 {
+    color: #1a202c;
+}
+
+.texto p {
+    color: #ffffff;
+}
+.header{    
+    background-image: linear-gradient(to right, #574ae8, #3ea1db);
+
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.texto {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.search input {
+    width: 100%;
+    height: 60px;
+
+    border-radius: 5px;
+    border-style: none;
+
+    padding-left: 20px;
+
+    opacity: 0.3;
+}
+.search input::placeholder {
+    color: #717171;
+    font-size: 16px;
+    opacity: 100%;
+}
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+.dives {
+    width: 100%;
+    
+    margin-bottom: 50px;
+    padding: 25px;
+
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+.dives h3 {
+    padding-top: 22px;
+    padding-bottom: 5px;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+   .container {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .texto {
+    padding-left: 20px;
+    padding-right: 20px; 
+   }
+   .search {
+    margin-left: 20px;
+    margin-right: 20px; 
+   }
+}
